@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "press Start 2P";
+  }
+  
+  header {
+    background-color: #333;
+    background-image: url("images/backroundsection.jpg");
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #d61616;
+    padding: 10px;
+    text-align: center;
+    
+
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h1, h2 {
+    color: #74f220;
+    font-family: "press Start 2P";
+  }
+  
+  footer {
+  
+    color: #2bfa24;
+    padding: 10px;
+    text-align: center;
+    font-family: "press Start 2P";
+    
+  }
+  

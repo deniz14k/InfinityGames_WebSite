@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donation Form</title>
+  <link rel="stylesheet" href="donations.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body background="images/backroundsection.jpg" id="backroundid">
+  <h1 id="title">Donation Form</h1><br><br><br><br>
+  <div class="container">
+    <form id="donationForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="donation">Amount of Donation:</label>
+        <input type="number" id="donation" name="donation" required>
+      </div>
+
+      <div class="form-group">
+        <label for="card">Card number:</label>
+        <input type="number" id="card" name="cardnumber" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cvv">CVV:</label>
+        <input type="number" id="cvv" name="cvv" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <button id="submitbutton" type="submit">Donate</button>
+    </form>
+  </div>
+  
+  <script>
+    const form = document.getElementById('donationForm');
+  
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+  
+      const formData = new FormData(form);
+  
+      fetch('http://localhost:3000/donations.html', { // Update the URL to localhost:3000
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(Object.fromEntries(formData))
+      })
+      .then(response => {
+        if (response.ok) {
+          console.log('Form data submitted successfully');
+          
+        } else {
+          console.error('Failed to submit form data');
+          
+        }
+      })
+      .catch(error => {
+        console.error('An error occurred:', error);
+      });
+    });
+  </script>
+  
+  
+</body>
+</html>

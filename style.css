@@ -1,0 +1,177 @@
+#game{
+
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    font-family: "press Start 2P";
+    /* font-style: italic;
+       font-weight: bold;
+       text-decoration: cyan dotted underline;      
+    */
+    color:rgb(149, 245, 31);
+    margin-right: 169px ;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+
+body{
+    
+    /*background-color: rgb(0, 0, 0);   */
+    background-image: url("dices/dicepoza2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;  
+    margin-left: 133px;
+    
+
+}
+
+
+
+
+#p1Label{
+
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: "consolas";
+    width: 144px;
+    
+    border-style:groove;
+    border-color: rgb(87, 229, 27);
+    border-radius: 10px;
+    border-width: 10px;
+    
+    
+    margin-top: 100px;
+}
+    
+
+
+
+
+#p2Label{
+
+    width: 144px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: "consolas";
+    border-style:groove;
+    border-color: rgb(87, 229, 27);
+    border-radius: 10px;
+    border-width: 10px;
+        
+}
+
+
+
+
+
+#xdLabel{
+
+    display: block;
+    text-align:left;
+    font-size: 18px;
+    font-family: "consolas";
+                                    
+ }
+
+
+
+
+
+#dxLabel{
+    display: block;
+    text-align:left;
+    font-size: 18px;
+    font-family: "consolas";
+                                        
+}
+
+
+
+        
+
+#dice{
+
+    display: block;
+    text-align:left;
+    font-size: 18px;
+    font-family: "consolas";
+    margin-left: 500px;
+    
+}      
+     
+     
+
+                                            
+                                            
+                                            
+#choiceBox{
+
+    display: block;
+    text-align:right;
+    font-size: 18px;
+    margin-left: 500px;                                
+}
+
+
+
+
+
+#rollButton{
+
+    display:block;
+    text-align:right;
+    font-size: 22px;
+    margin-left: 500px; 
+    background-color:greenyellow;                                       
+}
+
+
+#score{
+
+    display: block;
+    text-align:center;
+    font-size: 22px;
+    font-family: "press Start 2P";
+    margin-right: 40px;
+    width: 1200px;
+    border-style:groove;
+    border-color: rgb(87, 229, 27);
+    border-radius: 10px;
+    border-width: 10px;
+
+}
+
+#tie{
+
+    font-size: 20px;
+    font-family: "consolas";
+
+}
+
+
+
+#error{
+
+    display: block;
+    text-align:center;
+    font-size: 22px;
+    font-family: "consolas";   
+                                                        
+}
+
+#p1name,#p2name,#choiceBox{
+
+    font-size: 22px;
+    background-color: rgb(23, 41, 15);
+    color:rgb(255, 255, 255);
+
+}

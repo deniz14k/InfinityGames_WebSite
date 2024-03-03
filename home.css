@@ -1,0 +1,114 @@
+
+  /* Style the header */
+  header {
+   /* background-image: url("images/pozaheader.jpg"); */
+
+    /*background-position: right;*/
+    
+  
+    width:auto;
+    
+  }
+  
+  h1 {
+    color: #100000;
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display:inline-block;
+    margin-left:67px;
+    margin-right: 70px;
+    font-size: 14px;
+    font-family:"press Start 2P";
+    
+  }
+  
+  nav ul li a {
+  
+    
+    color: #48fa11;
+  }
+  
+  /* Style the section */
+  section {
+    background: #fff;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #27ff32;
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+  
+  .games {
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .game {
+    background: #f22d2d;
+    padding: 10px;
+    text-align: center;
+    width: 45%;
+  }
+  
+  .game h3 {
+    color: #000000;
+    font-size: 33px;
+    margin-bottom: 10px;
+  }
+  
+  .game a {
+    display: inline-block;
+    background: #333;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .game a:hover {
+    background: #666;
+  }
+  
+  /* Style the footer */
+  footer {
+  
+    padding: 5px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #000000;
+    font-size: 22px;
+    text-decoration: solid;
+  }
+  
+  #titlu{
+
+    font-family: "press Start 2P";
+    text-align: center;
+    color:rgb(17, 255, 0);
+    
+
+  }
+  
+
+
+  #gameSection{
+
+    padding: 244px;
+    background-image: url("images/backroundsection.jpg");
+
+  }
+
+  
+  
