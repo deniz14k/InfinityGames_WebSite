@@ -1,0 +1,96 @@
+#game{
+
+    display: block;
+    text-align: center;
+    font-size: 44px;
+    color:greenyellow;
+    font-family: "press Start 2P";
+    margin-top: 22px;
+}
+
+
+body{
+
+    background-image: url("images/numberGuesser.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+#guess{
+
+font-size: 33px;
+font-family: "consolas";
+color:blueviolet;
+
+}
+
+
+
+
+
+#GuessField{
+    font-family: "consolas";
+    font-size: 25px;
+}
+
+
+
+
+
+#SubmitButton{
+
+    font-size: 44px;
+    background-color: greenyellow;
+}
+
+
+
+
+
+#xd{
+    font-family: "consolas";
+    font-size: 25px;
+    color:blueviolet;
+}
+
+
+
+
+#pick{
+
+    font-family: "consolas";
+    font-size: 33px;
+    text-align: right;
+    color:blueviolet;
+
+}
+
+
+
+
+#increaseButton{
+    background-color: greenyellow;
+    font-size: 33px;
+}
+
+
+
+
+
+
+#decreaseButton{
+    background-color:greenyellow;
+    font-size: 33px;
+}
+
+
+
+
+
+
+
+
+
