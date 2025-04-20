@@ -5,4 +5,11 @@ I also provided a database management system on my local computer, it worked, i 
 Here are some screnshots of how the app is working : 
 
 ![App Screenshot](images/HomePage.png)
+![App Screenshot](images/DiceGameIndex.png)
+![App Screenshot](images/DiceGameIndex2.png)
+![App Screenshot](images/DiceGameIndex3.png)
+![App Screenshot](images/NumberGuesserIndex1.png)
+![App Screenshot](images/NumberGuesserIndex2.png)
+![App Screenshot](images/RegisterIndex.png)
+![App Screenshot](images/DonationFormIndex.png)
 
