@@ -4,3 +4,5 @@ I also provided a database management system on my local computer, it worked, i 
 
 Here are some screnshots of how the app is working : 
 
+![App Screenshot](images/HomePage.png)
+
